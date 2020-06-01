@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<style>
+		.img-responsive {
+		    margin: 0 auto;
+		}
+		.img-wrap{
+			padding: 50px 0;
+		}
+		.bg-purple{
+			background: #b622b5;
+			min-height: 300px;
+		}
+		.bg-blue{
+			background: #3350b9;
+			min-height: 300px;
+		}
+		.bg-lightBlue{
+			background: #0097f6;
+			min-height: 300px;
+		}
+		@media screen and (max-width: 420px) {
+			.bg-purple{
+
+				min-height: 400px;
+			}
+		}
+
+	</style>
+
+<body>
+	<div class="title-wrap text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<h1>TESTE FRONT-END - GRID BOOSTRAP 3</h1>
+					<div class="alert alert-info">
+						<p>Insira abaixo uma estrutura HTML que alcance os resultados abaixo nas suas respectivas resoluções</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="img-wrap text-center">
+		<h2>VISUALIZAÇÃO DESKTOP</h2>
+		<img src="img-desktop.png" alt="Imagem no desktop" class="img-responsive">
+	</div>
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Insira aqui a sua estrutura html que funcione tanto para Desktop quanto para Mobile -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<section>
+		<div class="container">
+			<div class="bg-purple tamanho col-sm-12 col-md-4 col-lg-4 col-xs-12"></div>
+			<div class="bg-blue tamanho col-sm-12 col-md-6 col-lg-6 col-xs-6"></div>
+			<div class="bg-lightBlue tamanho col-sm-12 col-md-2 col-lg-2 col-xs-6"> </div>
+		</div>
+
+	</section>
+
+
+
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+	<!-- Insira aqui a sua estrutura html que funcione tanto para Desktop quanto para Mobile -->
+	<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+	<div class="img-wrap text-center">
+		<h2>VISUALIZAÇÃO MOBILE</h2>
+		<img src="img-mobile.png" alt="Imagem no desktop" class="img-responsive">
+	</div>
+
+</body>
+</html>
